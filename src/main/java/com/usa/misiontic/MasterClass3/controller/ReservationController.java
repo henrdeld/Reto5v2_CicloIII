@@ -42,7 +42,7 @@ public class ReservationController {
     }
 
     //Reto5
-    @GetMapping("/reports-clients")
+    @GetMapping("/report-clients")
     public List<CountClient> getReservationReportClient(){
         return reservationService.getTopClients();
     }
