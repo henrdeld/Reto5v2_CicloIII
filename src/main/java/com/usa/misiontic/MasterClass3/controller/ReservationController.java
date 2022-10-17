@@ -49,7 +49,7 @@ public class ReservationController {
 
     @GetMapping("/report-status")
     public StatusAmount getReservationStatus(){
-        return reservationService.getReservationStatusReport()  ;
+        return reservationService.getReservationStatusReport();
     }
 
     @GetMapping("/report-dates/{dateOne}/{dateTwo}")
