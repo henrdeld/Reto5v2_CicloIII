@@ -44,7 +44,7 @@ public class ReservationController {
     //Reto5
     @GetMapping("/report-clients")
     public List<CountClient> getReservationReportClient(){
-        return reservationService.getTopClients();
+        return reservationService.getTopClients() ;
     }
 
     @GetMapping("/report-status")
